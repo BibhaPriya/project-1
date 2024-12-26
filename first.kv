@@ -1,0 +1,21 @@
+<Interface>:
+    TextInput:
+        id: TXTINP1
+        text: "Write here ......."
+        size_hint: 1,0.1
+        pos_hint: {"center_x": 0.5,"center_y": 0.5}
+        multiline: False
+
+    Button:
+        id: BTN1
+        text: "Click me!"
+        size_hint: 0.3, 0.1
+        pos_hint: {"center_x": 0.5, "center_y": 0.3}
+        on_press: root.print_label()
+
+    Label:
+        id: LBL1
+        text: "I will DisplayText"
+        size_hint: 1,0.1
+        pos_hint: {"center_x": 0.5, "center_y": 0.8}
+
